@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "digitalfarm-200107",
+  "private_key_id": "1cf8315de53d30d5e1ee9efe1952ae1dd113ab9e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCkWQIYjjAEtJcm\nQXG2DSChOZjqB8ZOBqMwx16PLefpiewwEBxiIqFVnjEkqg2PsVaDN23z6B3fDhQs\nTvrSZuUu+RKyZVg7ZPoEp6rhoE7knmuJFEyicvZLttTUhcTso/tDFrnARZ4z+JxE\nZpYzNA6Ku8HUtg8wRhrqbHkXhBi504/kmI9i3frULNGEilbB8dcpBEWWkpgm4l3k\nl9Ys1b6RO9Q+OtOJJzg9s6HwpmffZy8O/jIPaGCh5w5Y5xQzZsuVfVElYdqnzal0\n+DbR1CR5Xh0JyO/xDd/0X6Zrcf0+OFg7iK4EHjvYb1IML3vXvlRPqKDThCvvRhQW\nMjcAdjcJAgMBAAECggEABjNpsoo72ijuVTDN2j31eRZ39D2Mmtah2zYXKuJjJYg7\ntNEIzHRCH32SB7AnBety8uK5TO/OimMo5EaVwgZEl6tUDE5/VUdb2RIymU56fOJU\nIZu2LADCgExoIZLLVtfgOTGUcC0YQ92kQhRCTsaEKscchZAZyNseSnHDDF3NLoao\ngBOnEk6XUPFYZPcMdJ/B8ccym5HTbABc9axsTI9xN9hURk2beyTZPRqo88DyrrxZ\nHWMe7GNOMqy+6+wPlhajp1x2cQkD+2XTpAFxJkeWF6nUPkfAdqQzktMhhZpnJbcg\nMgLNN61l+RguwM6KlzYKQFluz+ccf2cb7vg9A5IzcQKBgQDXdeRQCb+AgdFaX/nF\n4MqnW9qAcMdZbRKKWDio8UCPuD1pLOWNkChVvuY2QoAdwObhWx8a1cQKmJ3jPgqN\nPmj4pqpwbjpkFKmpZeQa9E38OAL1u03d/9VUB9OBQMJYJLiqojA/TFDSZViljG/r\ndc8tDnnlOPWldtVs6lFQzZM8GQKBgQDDRSjif6d+9JteeHOexgPEmuor1tQuAIPX\n8c8bzo/g4Zcukh+7UvE0fM1+ENmee0dAlgR1d4m2F8BY+RYmRSyCHVXoNWsBmDhw\nbH0er2YEB0Q4/p3HfCMUpD2ZUPuZ/gxDngw5OsPFuLsknMZ46UB8CSY6BKhBE/Cj\nOqX2R1QwcQKBgCE5gr1841Tzr87Z4fBLm7R3C5imy3bUxPkkZYhXu3buGDoxvCw6\nQJ4IVAOl+Y+dAX1ayc8fi51+r0otdP8W0qUVPk8cEFEChq8ikSw+5A+yq3ItMfK7\n0q+kjU7vJ4jkEL3vSLVaFVR8YFEW+OM8RXhTNSTNxcOAMaUb9PIa4UtxAoGAdPAi\n1tlZpja4ILADlY7BzOh02gISGOZoDlcaD235TdPrJJGPfS/jkOo4aYmPuU/cULpG\nO0514t2AbAfnEs4UJGuK+b+bsF3HVtQxbcHeVwU+/t7EACXAIGlnFjygIA06rPem\nHFOrz+mb8QYN+XS+EEmuYcpONILLdgT2RHFc4pECgYAGnwH+VdzL6hkpN3iyVDh7\ndo96QeR450lawpaaBFc2GkefFytWW+w1ZkYOZWFPsmyoXZUlyqz5T3J9VSkiN+WA\nJ8oZCxSRV80WWH4vmcSMldle3Ynvb3mreJz7xvbQRXznlyq/9gcYJevNecjP6Lnw\nnsQsV9QDu5BVjOhL18zYeA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "farmer@digitalfarm-200107.iam.gserviceaccount.com",
+  "client_id": "116524638535213740833",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/farmer%40digitalfarm-200107.iam.gserviceaccount.com"
+}
