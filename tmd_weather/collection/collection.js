@@ -38,9 +38,10 @@ function reformat(strVal)
   var result = strVal.split(" ");
   var dateArr = result[0].split("/");
   var timeArr = result[1].split(":");
-
-  var dateId = new Date(Number(dateArr[2]), Number(dateArr[1]), Number(dateArr[0]), Number(timeArr[0]), Number(timeArr[1]), Number(timeArr[2]), 0);
-
+  
+  // Month number is zero based
+  var dateId = new Date(Number(dateArr[2]), Number(dateArr[1]) - 1, Number(dateArr[0]), Number(timeArr[0]), Number(timeArr[1]), Number(timeArr[2]), 0);
+  
   return dateId;
 }
 
