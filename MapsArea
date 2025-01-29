@@ -1,0 +1,40 @@
+from geographiclib.geodesic import Geodesic
+import simplekml
+
+# กำหนดพิกัดเริ่มต้นและสิ้นสุด
+start_lat = 15.845727
+start_lon = 101.360485
+end_lat = 15.845639
+end_lon = 101.358697
+
+# สร้างวัตถุ KML
+kml = simplekml.Kml()
+
+# เพิ่มจุดเริ่มต้น
+kml.newpoint(name="Start", coords=[(start_lon, start_lat)])
+
+# คำนวณเส้นทางและระยะทาง
+geod = Geodesic.WGS84
+line = geod.InverseLine(start_lat, start_lon, end_lat, end_lon)
+total_distance = line.s13 / 111111  # ระยะทางรวม (เมตร)
+
+# สร้างจุดทุกๆ 8 เมตร
+points = []
+current_distance = 0
+
+while current_distance <= total_distance:
+    g = line.ArcPosition(current_distance, Geodesic.LATITUDE | Geodesic.LONGITUDE)
+    points.append((g['lon2'], g['lat2']))
+    current_distance += 8 /111111
+
+# เพิ่มจุดสิ้นสุดหากยังไม่มี
+if points[-1] != (end_lon, end_lat):
+    points.append((end_lon, end_lat))
+
+# เพิ่มจุดทั้งหมดใน KML
+for i, (lon, lat) in enumerate(points):
+    kml.newpoint(name=f"Point {i+1}", coords=[(lon, lat)])
+
+# บันทึกไฟล์
+kml.save("pins_8m_interval.kml")
+print("สร้างไฟล์ KML เสร็จสิ้น!")
