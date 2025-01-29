@@ -25,7 +25,7 @@ current_distance = 0
 while current_distance <= total_distance:
     g = line.ArcPosition(current_distance, Geodesic.LATITUDE | Geodesic.LONGITUDE)
     points.append((g['lon2'], g['lat2']))
-    current_distance += 8 /111111
+    current_distance += 8 / 111111
 
 # เพิ่มจุดสิ้นสุดหากยังไม่มี
 if points[-1] != (end_lon, end_lat):
